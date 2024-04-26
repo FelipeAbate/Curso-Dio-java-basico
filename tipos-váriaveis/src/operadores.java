@@ -12,17 +12,17 @@ public class operadores {
        
       System.out.println(palavra1 + palavra2); 
 
-
+      // veja as diferenças
       String concatenacao = "?";
       System.out.println(concatenacao); 
 
-      concatenacao = 1+1+1+"1";
+      concatenacao = 1+1+1+"1";         // soma e imprime e assim exibe
       System.out.println(concatenacao);
 
-      concatenacao = 1+"1"+1+1;
-      System.out.println(concatenacao);
+      concatenacao = 1+"1"+1+1;        // soma, pega valor impresso, volta a somar
+      System.out.println(concatenacao);// e nessa sequencia exibe
 
-      concatenacao = 1+"1"+1+"1";
+      concatenacao = 1+"1"+1+"1";      // compreenda as outras opções!
       System.out.println(concatenacao);
 
       concatenacao = "1"+1+1+1;
