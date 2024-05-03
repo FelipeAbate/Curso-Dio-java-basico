@@ -5,7 +5,6 @@ public class TiposVariaveis {
 
 // java é fotemente tipado !
 
-
 short numeroCurto = 1; 
 int numeroNormal = numeroCurto; // Por mais que esse numero seja igual a 1
                                 // em algum momento ele pode ser maior que 32.000 que 
@@ -30,13 +29,12 @@ System.out.println(numeroCurto + " - " + numeroNormal + " - " + numeroCurto2);
       System.out.println("\n");
 
 
-
       //-----------------------------------------------------------------------------
       // Operador Unário -> Eles realizam alguns trabalhos básicos como 
       //incrementar, decrementar, inverter valores numéricos e booleanos
       
+      
       int numero = 5;  
-                  
       
       numero = - numero;        // a variável é negativa !
       System.out.println(numero);

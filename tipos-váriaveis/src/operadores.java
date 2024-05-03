@@ -31,5 +31,28 @@ public class operadores {
       concatenacao = "1"+(1+1+1);
       System.out.println(concatenacao);
 
+
+      System.out.println("\n");
+      /*-----------------------------------------------------------
+      // Operadores lógicos não diferentes de outras linguagens
+
+      -     && Operador Lógico "E"
+      -     || Operador Lógico "OU"
+
+           Exemplo abaixo não somente usando peradores lógicos mas támbem 
+           operadores relacionais
+      */
+
+      boolean condição1 = true;
+      boolean condição2 = true;
+
+      if( condição1 && ( 7 > 4 ) ) {
+        System.out.println(" As duas condições são verdadeiras");
+      }
+
+      if( condição1 || condição2 ) {
+        System.out.println(" são verdadeiras");
+      }
+
     }
 }
