@@ -1,4 +1,4 @@
-public class operadores {
+public class Operadores {
     public static void main(String[] args) {
         //Expressão aritimética resto da divisão em java:  x / y = resto   
 
